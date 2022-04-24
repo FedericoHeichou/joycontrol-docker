@@ -6,4 +6,4 @@ services:
     network_mode: "host"
     privileged: true
     volumes:
-      - amiibo:/amiibo
+      - ./amiibo:/amiibo
