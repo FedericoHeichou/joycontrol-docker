@@ -5,3 +5,5 @@ services:
     image: heichou/joycontrol:latest
     network_mode: "host"
     privileged: true
+    volumes:
+      - amiibo:/amiibo
